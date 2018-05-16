@@ -3,49 +3,55 @@ from urllib.request import urlopen
 import json
 import time
 
+#Scrape big picture
 def scrape_smallpic(url):
-    result = []
+    result = {}
     page = urlopen(url).read()
     soup = BeautifulSoup(page,'html.parser')
     
+    #Judul iklan
     name = soup.find("title").text
-    result.append(name)
+    result['nama']=name
     
-    location = soup.find("meta",{"property":"urbanindocom:location"})['content']
-    result.append(location)
-    
+    #Tipe properti
     tipe1 = soup.find("li",{"class":"col-md-6 pb5 attribute-propertyType"})
     tipe = tipe1.find("span",{"class":"col-xs-5"}).text
-    result.append(tipe)
+    result['tipe']=tipe
     
-    iklan1 = soup.find("li",{"class":"col-md-6 pb5 attribute-listingType"})
-    iklan = iklan1.find("span",{"class":"col-xs-5"}).text
-    result.append(iklan)
+    #Lokasi properti
+    location = soup.find("meta",{"property":"urbanindocom:location"})['content']
+    result['lokasi']=location
     
-    harga1 = soup.find("li",{"class":"col-md-6 pb5 attribute-price"})
-    harga = harga1.find("span",{"class":"col-xs-5"}).text
-    result.append(harga)
-    
-    land1 = soup.find("li",{"class":"col-md-6 pb5 attribute-landSize"})
-    land = land1.find("span",{"class":"col-xs-5"}).text
-    result.append(land)
+    #Harga properti
+    harga = soup.find("meta",{"property":"urbanindocom:price"})['content']
+    result['harga']=harga
     
     if tipe == "Rumah":
-        kt1 = soup.find("li",{"class":"col-md-6 pb5 attribute-bedrooms"})
-        kt = kt1.find("span",{"class":"col-xs-5"}).text
-        result.append(kt)
-    
-        km1 = soup.find("li",{"class":"col-md-6 pb5 attribute-bathrooms"})
-        km = km1.find("span",{"class":"col-xs-5"}).text
-        result.append(km)
+        #Jumlah kamar tidur
+        kt1 = soup.find("i",{"uif uif-property-bedrooms"})
+        kt = (kt1.find_next_sibling("span",{"attr-item"}).text).strip()
+        result['jumlah kamar tidur']=kt
+        
+        #Jumlah kamar mandi
+        km1 = soup.find("i",{"uif uif-property-bathrooms"})
+        km = (km1.find_next_sibling("span",{"attr-item"}).text).strip()
+        result['jumlah kamar mandi']=km
     
     if tipe != "Tanah":
-        building1 = soup.find("li",{"class":"col-md-6 pb5 attribute-buildingSize"})
-        building = building1.find("span",{"class":"col-xs-5"}).text
-        result.append(building)
+        #Luas bangunan
+        building1 = soup.find("i",{"uif uif-property-buildingSize"})
+        building = (building1.find_next_sibling("span",{"attr-item"}).text).strip()
+        result['luas bangunan']=building
+    
+    if tipe != "Apartemen":
+        #Luas tanah
+        land1 = soup.find("i",{"uif uif-property-landSize"})
+        land = (land1.find_next_sibling("span",{"attr-item"}).text).strip()
+        result['luas tanah']=land
     
     return result
 
+#Scrape small picture
 def scrape_bigpict(url):
     page = urlopen(url).read()
     soup = BeautifulSoup(page,'html.parser')
@@ -53,14 +59,22 @@ def scrape_bigpict(url):
     result = [line['content'] for line in text]
     return result
 
-urls = scrape_bigpict("https://www.urbanindo.com/cari/bandung")
-result = []
-for url2 in urls:
-    url = "https://www.urbanindo.com"+url2
-    x = scrape_smallpic(url)
-    result.append(x)
-    time.sleep(1)
-print(result)
-with open('data.json', 'w') as outfile:
-    json.dump(result, outfile)
+#find all urls
+allurls = []
+for i in range (10):
+    urls = scrape_bigpict("https://www.urbanindo.com/cari/Indonesia/location_bandung/listingType_sale/radius_-1/page_"+str(i+1)+"/marketType_0")
+    print(urls)
+    allurls = allurls + urls
 
+#scrape from those urls
+result = []
+for url2 in allurls:
+    url = "https://www.urbanindo.com"+url2
+    print(url)
+    x = scrape_smallpic(url)
+    print(x)
+    result.append(x)
+    time.sleep(5)
+
+with open('data.json', 'w') as outfile:
+    json.dump(result, outfile,indent=4)
