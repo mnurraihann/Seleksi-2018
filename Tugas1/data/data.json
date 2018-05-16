@@ -1,1 +1,454 @@
-[["Rumah Dijual: #2019 Ganti dng Casa de Soroja Murah Mewah wisata", "Jl. Panyaungan Cangkuang? Soreang Kabupaten Bandung, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp234.000.000", "66m\u00b2", "2", "1", "32m\u00b2"], ["Ruko Dijual: Strategis Main Road di Taman Kopo Indah", "Jl. Taman Kopo Indah I Margahayu Bandung Jawa Barat, Bandung, Jawa Barat", "Ruko", "Dijual", "Rp1.950.000.000", "75m\u00b2", "225m\u00b2"], ["Kost Dijual: Rumah Murah di Ciumbuleuit Bandung", "Jl. Ciumbuleuit, Cidadap, Bandung, Jawa Barat", "Kost", "Dijual", "Rp20.000.000.000", "1166m\u00b2", "1460m\u00b2"], ["Rumah Dijual: DI DAGO KOMPLEK ELIT DEKAT ITB", "dago, Coblong, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp6.100.000.000", "350m\u00b2", "4", "4", "300m\u00b2"], ["Rumah Dijual: Murah di Uber Jatinangor UPI Cibiru 5 Menit ke Jalan Raya", "Cibiru, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp400.000.000", "72m\u00b2", "2", "1", "45m\u00b2"], ["Rumah Dijual: sayap RIAU (strategis, minimalis, jarang ada)", "riau, riau, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp5.280.000.000", "176m\u00b2", "4", "3", "305m\u00b2"], ["Rumah Dijual: cepat siap huni kost dkt universitas maranatha,", "suryasumantri, Sukajadi, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp1.599.000.000", "137m\u00b2", "10", "6", "200m\u00b2"], ["Rumah Dijual: Bandung Timur di Bumi Panyawangan, Cileunyi Bandung", "Jalan Utama, Bandung Timur, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp3.000.000.000", "381m\u00b2", "6", "4", "400m\u00b2"], ["Rumah Dijual: minimalis di cibereum Bandung", "h alpi, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp750.000.000", "80m\u00b2", "3", "3", "160m\u00b2"], ["Rumah Dijual: Jarang ada murah di komplek margahayu raya, lokasi", "margahayu raya, soekarno hatta, Bandung, Jawa Barat", "Rumah", "Dijual", "Rp650.000.000", "84m\u00b2", "4", "2", "100m\u00b2"]]
+[
+    {
+        "nama": "Tanah Dijual: Kavling eksklusif dg view danau di Ratna Agung KBP harga",
+        "tipe": "Tanah",
+        "lokasi": "Jalan Ratna Agung, Cipeundeuy, Kabupaten Bandung Barat, Jawa Barat, Indonesia, Padalarang, Bandung Barat, Jawa Barat",
+        "harga": "3955000000",
+        "luas tanah": "565"
+    },
+    {
+        "nama": "Tanah Dijual: Tanah/Kavling Murah siap Bangun Bandung",
+        "tipe": "Tanah",
+        "lokasi": "jalan raya nanjung, kutawaringin, bandung, Bandung, Jawa Barat",
+        "harga": "4250000",
+        "luas tanah": "1"
+    },
+    {
+        "nama": "Ruko Dijual: 3 lantai posisi strategis pinggirjalan sarijadi",
+        "tipe": "Ruko",
+        "lokasi": "sarijadi, gegerkalong bandung, Sukasari, Bandung, Jawa Barat",
+        "harga": "2900000000",
+        "luas bangunan": "250",
+        "luas tanah": "113"
+    },
+    {
+        "nama": "Rumah Dijual: Rumah/Cafe Taman Cempaka - Sayap Riau, RE Martadinata,",
+        "tipe": "Rumah",
+        "lokasi": "Taman Cempaka,  Sayap Riau, RE Martadinata,  Bandung, Bandung, Jawa Barat",
+        "harga": "18000000000",
+        "jumlah kamar tidur": "5",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "658",
+        "luas tanah": "658"
+    },
+    {
+        "nama": "Rumah Dijual: awiligar / cikutra bandung view dago 3 lantai shm",
+        "tipe": "Rumah",
+        "lokasi": "jln awiligar ria 2 cibeunying bandung, cigadung, Bandung, Jawa Barat",
+        "harga": "1300000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "150",
+        "luas tanah": "108"
+    },
+    {
+        "nama": "Rumah Dijual: di bandung - Urbanindo.com",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Ciganitri, Bandung selatan, Bojongsoang, Bandung, Jawa Barat",
+        "harga": "5000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "33",
+        "luas tanah": "66"
+    },
+    {
+        "nama": "Rumah Dijual: Murah di Uber Jatinangor UPI Cibiru 5 Menit ke Jalan Raya",
+        "tipe": "Rumah",
+        "lokasi": "Cibiru, Bandung, Jawa Barat",
+        "harga": "400000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "45",
+        "luas tanah": "72"
+    },
+    {
+        "nama": "Rumah Dijual: sayap RIAU (strategis, minimalis, siap huni, jarang ada)",
+        "tipe": "Rumah",
+        "lokasi": "riau, riau, Bandung, Jawa Barat",
+        "harga": "6100000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "305",
+        "luas tanah": "204"
+    },
+    {
+        "nama": "Kost Dijual: Rumah Murah di Ciumbuleuit Bandung",
+        "tipe": "Kost",
+        "lokasi": "Jl. Ciumbuleuit, Cidadap, Bandung, Jawa Barat",
+        "harga": "20000000000",
+        "luas bangunan": "1460",
+        "luas tanah": "1166"
+    },
+    {
+        "nama": "Rumah Dijual: Murah dan Baru di Renovasi di Taman Rahayu 1",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Perumahan Taman Rahayu, Margaasih, Bandung, Jawa Barat",
+        "harga": "690000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "120",
+        "luas tanah": "100"
+    },
+    {
+        "nama": "Komersial Dijual : Ciateul Bandung kota strategis jarang ada nego",
+        "tipe": "Komersial",
+        "lokasi": "Jl. Ciateul, Pungkur, Regol, Bandung, Jawa Barat",
+        "harga": "5200000000",
+        "luas bangunan": "200",
+        "luas tanah": "282"
+    },
+    {
+        "nama": "Rumah Dijual: siap huni, harga MIRING - Saturnus Selatan/ ciwastra",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Saturnus Sel. VII, Margasari, Bandung City, West Java, Indonesia, Buahbatu, Bandung, Jawa Barat",
+        "harga": "1100000000",
+        "jumlah kamar tidur": "5",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "130",
+        "luas tanah": "140"
+    },
+    {
+        "nama": "Rumah Dijual: Rumah, cocok untuk tempat konveksi - Pesona Margaasih",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Raya Nanjung, Margaasih, Bandung, Jawa Barat",
+        "harga": "500000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "70",
+        "luas tanah": "108"
+    },
+    {
+        "nama": "Rumah Dijual: Hunian menarik siap Huni - Taman Kopo Indah",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Taman Kopo Indah III, Taman Kopo Indah, Bandung, Jawa Barat",
+        "harga": "1280000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "140",
+        "luas tanah": "144"
+    },
+    {
+        "nama": "Rumah Dijual: Mungil, 3 KT siap Huni - Sarijadi/ Pasteur",
+        "tipe": "Rumah",
+        "lokasi": "Sarijadi, Bandung City, West Java, Indonesia, Sukasari, Bandung, Jawa Barat",
+        "harga": "850000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "70",
+        "luas tanah": "97"
+    },
+    {
+        "nama": "Rumah Dijual: Hunian di kawasan terbaik Kiaracondong - Terusan",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Terusan Kiaracondong, Cijaura, Kota Bandung, Jawa Barat, Buahbatu, Bandung, Jawa Barat",
+        "harga": "2500000000",
+        "jumlah kamar tidur": "5",
+        "jumlah kamar mandi": "5",
+        "luas bangunan": "250",
+        "luas tanah": "170"
+    },
+    {
+        "nama": "Vila Dijual: rumah di lembang bandung, dekat ke tempat wisata di lembang",
+        "tipe": "Vila",
+        "lokasi": "lembang, Lembang, Bandung Barat, Jawa Barat",
+        "harga": "5500000000",
+        "luas bangunan": "500",
+        "luas tanah": "468"
+    },
+    {
+        "nama": "Apartemen Dijual: Jarrdin, siap huni - Urbanindo.com",
+        "tipe": "Apartemen",
+        "lokasi": "Jl. Cihampelas, Cipaganti, Bandung, Jawa Barat",
+        "harga": "450000000",
+        "luas bangunan": "33"
+    },
+    {
+        "nama": "Rumah Dijual: cantik, harga bersahabat - Parakan Saat/ arcamanik",
+        "tipe": "Rumah",
+        "lokasi": "Jalan Parakan Saat III, Cisaranten Endah, Bandung City, West Java, Indonesia, Arcamanik, Bandung, Jawa Barat",
+        "harga": "875000000",
+        "jumlah kamar tidur": "5",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "140",
+        "luas tanah": "212"
+    },
+    {
+        "nama": "Tanah Dijual: kavling siap bangun di Mayang Padmi Kulon",
+        "tipe": "Tanah",
+        "lokasi": "Jl. Parahyangan, Padalarang, Bandung Barat, Jawa Barat",
+        "harga": "3045000000",
+        "luas tanah": "406"
+    },
+    {
+        "nama": "Tanah Dijual: siap bangun, luas 3500. lokasi strategis - Cidurian",
+        "tipe": "Tanah",
+        "lokasi": "Jalan Cidurian Selatan, Sukapura, Bandung City, West Java, Indonesia, Kiaracondong, Bandung, Jawa Barat",
+        "harga": "12250000000",
+        "luas tanah": "3500"
+    },
+    {
+        "nama": "Ruko Dijual: strategis - Urbanindo.com",
+        "tipe": "Ruko",
+        "lokasi": "jalan cimareme, Bandung Barat, Jawa Barat",
+        "harga": "1020000000",
+        "luas bangunan": "90",
+        "luas tanah": "45"
+    },
+    {
+        "nama": "Tanah Dijual: siap bangun luas 11000. cocok untuk pembangunan - Dago",
+        "tipe": "Tanah",
+        "lokasi": "Jl. Dago Giri, Mekarwangi, Parongpong, Bandung Barat, Jawa Barat",
+        "harga": "49500000000",
+        "luas tanah": "11000"
+    },
+    {
+        "nama": "Ruko Dijual: cepat - Urbanindo.com",
+        "tipe": "Ruko",
+        "lokasi": "cimareme, Bandung Barat, Jawa Barat",
+        "harga": "1200000000",
+        "luas bangunan": "606",
+        "luas tanah": "339"
+    },
+    {
+        "nama": "Rumah Dijual: Rumah, Lantai Marmer Pintu Kayu Jati -Murtamad/ lengkong",
+        "tipe": "Rumah",
+        "lokasi": "Malabar, Lengkong, Kota Bandung, Jawa Barat 40112, Sumur Bandung, Bandung, Jawa Barat",
+        "harga": "3500000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "170",
+        "luas tanah": "257"
+    },
+    {
+        "nama": "Tanah Dijual: di bongkok - Urbanindo.com",
+        "tipe": "Tanah",
+        "lokasi": "Jln cipanas, cisarua, Cisarua, Bandung Barat, Jawa Barat",
+        "harga": "60000000",
+        "luas tanah": "63"
+    },
+    {
+        "nama": "Rumah Dijual: minimalis modern resort dago pakar bandung",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Ir. H. Juanda, Dago, Bandung, Jawa Barat",
+        "harga": "2550000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "200",
+        "luas tanah": "189"
+    },
+    {
+        "nama": "Rumah Dijual: PINK NYAMAN DAN AMAN DENGAN HARGA WAJAR DI CIWASTRA",
+        "tipe": "Rumah",
+        "lokasi": "JL.CIWASTRA, Bandung, Jawa Barat",
+        "harga": "310000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "45",
+        "luas tanah": "60"
+    },
+    {
+        "nama": "Rumah Dijual: Hunian free kitchen set, sangat cantik - Dago Pakar",
+        "tipe": "Rumah",
+        "lokasi": "Jalan Dago Pakar Mawar III, Mekarsaluyu, Bandung, West Java, Indonesia, Cimenyan, Bandung, Jawa Barat",
+        "harga": "2500000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "250",
+        "luas tanah": "175"
+    },
+    {
+        "nama": "Rumah Dijual: 2 LT, siap huni. NEGO - Tanjung Sari Raya/ Antapani",
+        "tipe": "Rumah",
+        "lokasi": "Jalan Tanjung Sari, Antapani Wetan, Bandung City, West Java, Indonesia, Antapani, Bandung, Jawa Barat",
+        "harga": "4500000000",
+        "jumlah kamar tidur": "6",
+        "jumlah kamar mandi": "4",
+        "luas bangunan": "400",
+        "luas tanah": "300"
+    },
+    {
+        "nama": "Rumah Dijual: Hunian cantik, harga cantik 4 KM - Kopo Permai",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Kopo Permai, Margahayu, Bandung, Jawa Barat",
+        "harga": "1250000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "100",
+        "luas tanah": "140"
+    },
+    {
+        "nama": "Rumah Dijual: dengan garasi 3 mobil, teras depan luas. cibiru",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Cibiru Hilir, Cileunyi, Bandung, Jawa Barat",
+        "harga": "1900000000",
+        "jumlah kamar tidur": "6",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "400",
+        "luas tanah": "277"
+    },
+    {
+        "nama": "Rumah Dijual: di perumahan pilar biru cibiru, harga 1.9m nego",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Cibiru Hilir, Cileunyi, Bandung, Jawa Barat",
+        "harga": "1900000000",
+        "jumlah kamar tidur": "6",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "400",
+        "luas tanah": "277"
+    },
+    {
+        "nama": "Rumah Dijual: akses jalan bebas macet, bebas banjir,",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Terusan Buah Batu, Buah Batu, Bandung, Jawa Barat",
+        "harga": "1900000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "110",
+        "luas tanah": "161"
+    },
+    {
+        "nama": "Rumah Dijual: batununggal indah bandung, ada gazzebo di belakang",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Terusan Buah Batu, Buah Batu, Bandung, Jawa Barat",
+        "harga": "1900000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "110",
+        "luas tanah": "161"
+    },
+    {
+        "nama": "Rumah Dijual: Murah siap Huni - Taman Anggrek *semi furnish*",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Peta, Pasir Koja, Bandung, Jawa Barat",
+        "harga": "4500000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "200",
+        "luas tanah": "172"
+    },
+    {
+        "nama": "Rumah Dijual: 2 lantai bandung, jalan depan besar. akses jalan",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Sukamenak Indah, Margahayu, Bandung, Jawa Barat",
+        "harga": "1000000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "250",
+        "luas tanah": "185"
+    },
+    {
+        "nama": "Tanah Dijual: gudang baru siap pake - Urbanindo.com",
+        "tipe": "Tanah",
+        "lokasi": "jalan raya soreang jalak pamentasan, Bandung, Jawa Barat",
+        "harga": "8500000000",
+        "luas tanah": "5040"
+    },
+    {
+        "nama": "Rumah Dijual: komplek sukamenak indah, dijamin bebas banjir",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Sukamenak Indah, Margahayu, Bandung, Jawa Barat",
+        "harga": "1000000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "250",
+        "luas tanah": "185"
+    },
+    {
+        "nama": "Tanah Dijual: lahan strategis mainroad soreang ci herang",
+        "tipe": "Tanah",
+        "lokasi": "Jl. Ciherang, Soreang, Bandung, Jawa Barat",
+        "harga": "9000000000",
+        "luas tanah": "12000"
+    },
+    {
+        "nama": "Tanah Dijual: murah di Ngamprah, di Kabupaten Bandung Barat",
+        "tipe": "Tanah",
+        "lokasi": "Ngamprah, Bandung Barat, Jawa Barat",
+        "harga": "7700000000",
+        "luas tanah": "11000"
+    },
+    {
+        "nama": "Ruko Dijual: kawasan strategis, daerah ramai cocok untuk bisnis.",
+        "tipe": "Ruko",
+        "lokasi": "setrasari, Sukasari, Bandung, Jawa Barat",
+        "harga": "3700000000",
+        "luas bangunan": "280",
+        "luas tanah": "75"
+    },
+    {
+        "nama": "Ruko Dijual: setrasari bandung, kawasan strategis dan ramai",
+        "tipe": "Ruko",
+        "lokasi": "setrasari, Bandung, Jawa Barat",
+        "harga": "3700000000",
+        "luas bangunan": "280",
+        "luas tanah": "75"
+    },
+    {
+        "nama": "Ruko Dijual: Di Jalan Raya Cikoneng, Pacet. Kab. Bandung",
+        "tipe": "Ruko",
+        "lokasi": "Jl Ry cikoneng pacet, Pacet, Bandung, Jawa Barat",
+        "harga": "1300000000",
+        "luas bangunan": "377",
+        "luas tanah": "317"
+    },
+    {
+        "nama": "Rumah Dijual: Minimalis di Cikoneng Pacet - Urbanindo.com",
+        "tipe": "Rumah",
+        "lokasi": "Jl Ry cikoneng pacet, Pacet, Bandung, Jawa Barat",
+        "harga": "450000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "70",
+        "luas tanah": "127"
+    },
+    {
+        "nama": "Rumah Dijual: cepat di Perumahan Royal Duta Town House, Jl.",
+        "tipe": "Rumah",
+        "lokasi": "Perumahan Royal Duta Town House, Jl. Polban, Bandung, Jawa Barat",
+        "harga": "2700000000",
+        "jumlah kamar tidur": "5",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "250",
+        "luas tanah": "180"
+    },
+    {
+        "nama": "Rumah Dijual: Jl. Istiqomah Cibiru - Urbanindo.com",
+        "tipe": "Rumah",
+        "lokasi": "jl. Istiqomah VII, Bandung, Jawa Barat",
+        "harga": "695000000",
+        "jumlah kamar tidur": "4",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "120",
+        "luas tanah": "137"
+    },
+    {
+        "nama": "Rumah Dijual: Hunian Di Komplek Bumi Harapan",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Cibiru Hilir, Cibiru, Bandung, Jawa Barat",
+        "harga": "295000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "1",
+        "luas bangunan": "45",
+        "luas tanah": "60"
+    },
+    {
+        "nama": "Rumah Dijual: berkonsep villa , free kitchen set dan canopy.",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Villa Bandung Indah, Cileunyi, Bandung, Jawa Barat",
+        "harga": "1200000000",
+        "jumlah kamar tidur": "3",
+        "jumlah kamar mandi": "3",
+        "luas bangunan": "200",
+        "luas tanah": "120"
+    },
+    {
+        "nama": "Rumah Dijual: Hot DEAL, Batal KPR!! BAGUS Minimalis di Grand Sharon",
+        "tipe": "Rumah",
+        "lokasi": "Jl. Cipamokolan, Soekarno Hatta, Bandung, Jawa Barat",
+        "harga": "710000000",
+        "jumlah kamar tidur": "2",
+        "jumlah kamar mandi": "2",
+        "luas bangunan": "70",
+        "luas tanah": "86"
+    }
+]
